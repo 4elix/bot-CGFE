@@ -2,6 +2,14 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+list_type_graphic = [
+    'Гистограмма',
+    'Коробчатая диаграмма',
+    'Столбчатая диаграмма',
+    'Линейный график',
+    'Диаграмма рассеяния (точечная диаграмма)',
+]
+
 
 async def manager_groupby(df, *args):
     col1, col2, tg = args

@@ -23,3 +23,13 @@ class CreateGraphic(StatesGroup):
     x_label = State()
     y_label = State()
     color = State()
+
+
+class ChangeGraphic(StatesGroup):
+    g_type_graphic = State()
+    g_x = State()
+    g_y = State()
+    g_title = State()
+    g_x_label = State()
+    g_y_label = State()
+    g_color = State()
